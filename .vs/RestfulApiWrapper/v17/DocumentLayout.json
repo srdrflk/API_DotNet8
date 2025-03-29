@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\services\\restfulapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\services\\restfulapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\attributes\\validproductidattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\attributes\\validproductidattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\models\\updateobjectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\models\\updateobjectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\attributes\\validproductdataattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\attributes\\validproductdataattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\models\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\models\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\models\\customproblemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\models\\customproblemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\models\\createobjectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\models\\createobjectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\exceptions\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\models\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\models\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\restfulapiwrapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\restfulapiwrapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|c:\\users\\asus\\source\\repos\\restfulapiwrapper\\restfulapiwrapper\\services\\irestfulapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3A58FA-3B07-48B6-BD06-932F1B0484F4}|RestfulApiWrapper\\RestfulApiWrapper.csproj|solutionrelative:restfulapiwrapper\\services\\irestfulapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvzQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:38:05.113Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiControllerBase.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Controllers\\ApiControllerBase.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Controllers\\ApiControllerBase.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Controllers\\ApiControllerBase.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Controllers\\ApiControllerBase.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwB8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T22:30:51.179Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\PagedResult.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Models\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\PagedResult.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Models\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:41:07.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateObjectRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\UpdateObjectRequest.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Models\\UpdateObjectRequest.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\UpdateObjectRequest.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Models\\UpdateObjectRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:02:52.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidProductIdAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Attributes\\ValidProductIdAttribute.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Attributes\\ValidProductIdAttribute.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Attributes\\ValidProductIdAttribute.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Attributes\\ValidProductIdAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:35:48.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidProductDataAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Attributes\\ValidProductDataAttribute.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Attributes\\ValidProductDataAttribute.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Attributes\\ValidProductDataAttribute.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Attributes\\ValidProductDataAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:18:44.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:44:56.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestfulApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Services\\RestfulApiService.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Services\\RestfulApiService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Services\\RestfulApiService.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Services\\RestfulApiService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAADwv0AAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:39:00.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomProblemDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\CustomProblemDetails.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Models\\CustomProblemDetails.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\CustomProblemDetails.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Models\\CustomProblemDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:22:48.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiObject.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\ApiObject.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Models\\ApiObject.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\ApiObject.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Models\\ApiObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:39:28.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateObjectRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\CreateObjectRequest.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Models\\CreateObjectRequest.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\CreateObjectRequest.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Models\\CreateObjectRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:40:49.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Program.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Program.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIAwwDIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:44:05.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRestfulApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Services\\IRestfulApiService.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Services\\IRestfulApiService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Services\\IRestfulApiService.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Services\\IRestfulApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:38:45.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RestfulApiWrapper",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\RestfulApiWrapper.csproj",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\RestfulApiWrapper.csproj",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\RestfulApiWrapper.csproj",
+              "RelativeToolTip": "RestfulApiWrapper\\RestfulApiWrapper.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-29T22:03:28.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Exceptions\\ApiException.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Exceptions\\ApiException.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Exceptions\\ApiException.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Exceptions\\ApiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T22:03:48.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\ApiErrorResponse.cs",
+              "RelativeDocumentMoniker": "RestfulApiWrapper\\Models\\ApiErrorResponse.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\RestfulApiWrapper\\RestfulApiWrapper\\Models\\ApiErrorResponse.cs",
+              "RelativeToolTip": "RestfulApiWrapper\\Models\\ApiErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:39:27.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

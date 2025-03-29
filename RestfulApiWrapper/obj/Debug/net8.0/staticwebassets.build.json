@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/ziKCMHk32I8DXnDEU5nfpS6teFmeOiWbnKpyjTJGSs=",
+  "Source": "RestfulApiWrapper",
+  "BasePath": "_content/RestfulApiWrapper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
