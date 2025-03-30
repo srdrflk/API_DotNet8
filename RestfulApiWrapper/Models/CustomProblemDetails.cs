@@ -14,10 +14,10 @@ namespace RestfulApiWrapper.Models
             Instance = httpContext.Request.Path;
 
             Errors = modelState
-                .Where(x => x.Value.Errors.Count > 0)
+                .Where(x => x.Value?.Errors.Count > 0)
                 .ToDictionary(
                     kvp => kvp.Key,
-                    kvp => kvp.Value.Errors
+                    kvp => kvp.Value!.Errors
                         .Select(e => e.ErrorMessage).ToArray());
         }
 

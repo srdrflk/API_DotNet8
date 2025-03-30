@@ -23,10 +23,10 @@ namespace RestfulApiWrapper.Controllers
         protected ActionResult ValidationError(ModelStateDictionary modelState)
         {
             throw new ValidationException(modelState
-                .Where(e => e.Value.Errors.Count > 0)
+                .Where(e => e.Value?.Errors.Count > 0)
                 .ToDictionary(
                     kvp => kvp.Key,
-                    kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToArray()));
+                    kvp => kvp.Value!.Errors.Select(e => e.ErrorMessage).ToArray()));
         }
 
         protected ActionResult NotFound(string message)

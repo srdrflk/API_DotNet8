@@ -1,5 +1,6 @@
 ﻿using RestfulApiWrapper.Exceptions;
 using RestfulApiWrapper.Models;
+using System.Net;
 
 namespace RestfulApiWrapper.Middleware
 {
@@ -9,10 +10,7 @@ namespace RestfulApiWrapper.Middleware
         private readonly ILogger<ExceptionHandlingMiddleware> _logger;
         private readonly IHostEnvironment _env;
 
-        public ExceptionHandlingMiddleware(
-            RequestDelegate next,
-            ILogger<ExceptionHandlingMiddleware> logger,
-            IHostEnvironment env)
+        public ExceptionHandlingMiddleware(RequestDelegate next, ILogger<ExceptionHandlingMiddleware> logger, IHostEnvironment env)
         {
             _next = next;
             _logger = logger;
@@ -53,6 +51,22 @@ namespace RestfulApiWrapper.Middleware
                     apiEx.StatusCode,
                     apiEx.Message,
                     type: $"https://httpstatuses.com/{apiEx.StatusCode}");
+            }
+            else if (exception is NotFoundException notFoundEx)
+            {
+                response = ApiErrorResponse.Create(
+                    context,
+                    StatusCodes.Status404NotFound,
+                    notFoundEx.Message,
+                    type: "https://httpstatuses.com/404");
+            }
+            else if (exception is HttpRequestException httpEx && httpEx.StatusCode == HttpStatusCode.NotFound)
+            {
+                response = ApiErrorResponse.Create(
+                    context,
+                    StatusCodes.Status404NotFound,
+                    "The requested resource was not found",
+                    type: "https://httpstatuses.com/404");
             }
             else
             {

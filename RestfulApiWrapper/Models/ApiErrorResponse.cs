@@ -17,13 +17,7 @@ namespace RestfulApiWrapper.Models
         public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 
         // Factory methods
-        public static ApiErrorResponse Create(
-            HttpContext context,
-            int statusCode,
-            string title,
-            string detail = null,
-            Dictionary<string, string[]> errors = null,
-            string type = null)
+        public static ApiErrorResponse Create(HttpContext context, int statusCode, string title, string detail = null, Dictionary<string, string[]> errors = null, string type = null)
         {
             return new ApiErrorResponse
             {
@@ -37,36 +31,21 @@ namespace RestfulApiWrapper.Models
             };
         }
 
-        public static ApiErrorResponse FromModelState(
-            ModelStateDictionary modelState,
-            HttpContext context,
-            string detail = "Validation error occurred")
+        public static ApiErrorResponse FromModelState(ModelStateDictionary modelState, HttpContext context, string detail = "Validation error occurred")
         {
             var errors = modelState
-                .Where(e => e.Value.Errors.Count > 0)
+                .Where(e => e.Value?.Errors.Count > 0)
                 .ToDictionary(
                     kvp => kvp.Key,
-                    kvp => kvp.Value.Errors
+                    kvp => kvp.Value!.Errors
                         .Select(e => e.ErrorMessage).ToArray());
 
-            return Create(
-                context,
-                StatusCodes.Status400BadRequest,
-                "Invalid request",
-                detail,
-                errors);
+            return Create(context, StatusCodes.Status400BadRequest, "Invalid request", detail, errors);
         }
 
-        public static ApiErrorResponse FromException(
-            Exception ex,
-            HttpContext context,
-            bool includeDetails = false)
+        public static ApiErrorResponse FromException(Exception ex, HttpContext context, bool includeDetails = false)
         {
-            return Create(
-                context,
-                StatusCodes.Status500InternalServerError,
-                "An error occurred",
-                includeDetails ? ex.ToString() : "An unexpected error occurred");
+            return Create(context, StatusCodes.Status500InternalServerError, "An error occurred", includeDetails ? ex.ToString() : "An unexpected error occurred");
         }
     }
 }

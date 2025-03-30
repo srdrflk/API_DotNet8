@@ -30,7 +30,7 @@ namespace RestfulApiWrapper.Attributes
                 }
             }
 
-            return ValidationResult.Success;
+            return ValidationResult.Success!;
         }
     }
 }

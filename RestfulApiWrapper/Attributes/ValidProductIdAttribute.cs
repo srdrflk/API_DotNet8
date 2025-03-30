@@ -27,7 +27,7 @@ namespace RestfulApiWrapper.Attributes
                 return new ValidationResult("Product ID must be a 32-character hexadecimal string (example: ff808181932badb60195e41234ea6067)");
             }
 
-            return ValidationResult.Success;
+            return ValidationResult.Success!;
         }
     }
 }

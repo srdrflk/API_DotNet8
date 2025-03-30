@@ -16,19 +16,14 @@ namespace RestfulApiWrapper.Controllers
         private readonly IRestfulApiService _apiService;
         private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(
-            IRestfulApiService apiService,
-            ILogger<ProductsController> logger)
+        public ProductsController(IRestfulApiService apiService, ILogger<ProductsController> logger)
         {
             _apiService = apiService;
             _logger = logger;
         }
 
         [HttpGet]
-        public async Task<ActionResult<PagedResult<ApiObject>>> GetProducts(
-            [FromQuery] string nameFilter = null,
-            [FromQuery] int pageNumber = 1,
-            [FromQuery] int pageSize = 10)
+        public async Task<ActionResult<PagedResult<ApiObject>>> GetProducts([FromQuery] string nameFilter = null, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
             ValidatePagination(pageNumber, pageSize);
 
@@ -87,9 +82,7 @@ namespace RestfulApiWrapper.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<ApiObject>> UpdateProduct(
-            [ValidProductId] string id,
-            [FromBody] UpdateObjectRequest request)
+        public async Task<ActionResult<ApiObject>> UpdateProduct([ValidProductId] string id, [FromBody] UpdateObjectRequest request)
         {
             if (!ModelState.IsValid)
             {

@@ -1,4 +1,6 @@
-﻿using RestfulApiWrapper.Models;
+﻿using RestfulApiWrapper.Exceptions;
+using RestfulApiWrapper.Models;
+using System.Net;
 
 namespace RestfulApiWrapper.Services
 {
@@ -56,8 +58,13 @@ namespace RestfulApiWrapper.Services
         {
             try
             {
-                return await _httpClient.GetFromJsonAsync<ApiObject>($"objects/{id}");
+                var response = await _httpClient.GetFromJsonAsync<ApiObject>($"objects/{id}");
+                return response;
 
+            }
+            catch (HttpRequestException ex) when (ex.StatusCode == HttpStatusCode.NotFound)
+            {
+                throw new NotFoundException($"Product with ID {id} not found");
             }
             catch (Exception ex)
             {
@@ -72,7 +79,8 @@ namespace RestfulApiWrapper.Services
             {
                 var response = await _httpClient.PostAsJsonAsync("objects", request);
                 response.EnsureSuccessStatusCode();
-                return await response.Content.ReadFromJsonAsync<ApiObject>();
+                var objects = await response.Content.ReadFromJsonAsync<ApiObject>();
+                return objects;
             }
             catch (Exception ex)
             {

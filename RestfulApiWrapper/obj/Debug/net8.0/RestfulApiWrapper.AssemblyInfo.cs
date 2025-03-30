@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestfulApiWrapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+040e440d86eb02ac4216d5221eba46ef776ba2de")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestfulApiWrapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestfulApiWrapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
